@@ -756,7 +756,7 @@ header {
 }
 /* footer */
 .modal-footer-form {
-  display: block;
+  width: 453px;
   padding-left: 80px;
 }
 
