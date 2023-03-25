@@ -399,20 +399,21 @@
 
                 </div>
 
+                <div class="modal-footer-form">
+                    <p class="modal-footer-form-text">Subscribe</p>
 
-                <form class="modal-footer-form">
-                    <label class="modal-footer-form-label" for="user-email">Subscribe</label>
-                    <div class="modal-form-div">
-                        <input class="modal-footer-input" type="email" placeholder="E-mail" required name="user-email"
-                            id="footer-email">
-                        <button class="modal-footer-but" type="submit">Subscribe
-                            <svg class="modal-footer-icon" width="24px" height="24px">
-                                <use href="./img/icons.svg#icon-plane"> </use>
-                            </svg>
-                        </button>
-                    </div>
-                </form>
-
+                    <form>
+                        <div class="modal-form-div">
+                            <input class="modal-footer-input" type="email" placeholder="E-mail" required
+                                name="user-email" id="footer-email">
+                            <button class="modal-footer-but cursor" type="submit">Subscribe
+                                <svg class="modal-footer-icon" width="24px" height="20px">
+                                    <use href="./img/icons.svg#icon-plane"> </use>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
 
             </div>
         </div>
@@ -420,7 +421,7 @@
 
     <div class="backdrop is-hidden" data-modal is-hidden>
         <div class="modal">
-            <button class="modal-btn" type="button" data-modal-close>
+            <button class="modal-btn cursor" type="button" data-modal-close>
                 <svg class="modal-icon" width="8" height="8">
                     <use href="./img/icons.svg#icon-close-black"></use>
                 </svg>
@@ -466,7 +467,7 @@
                     <span class="modal-form-text">I accept the terms and conditions of the <a class="modal-form-link"
                             href="#">Privacy Policy</a></span>
                 </label>
-                <button class="hero-but modal-but" type="submit">Send</button>
+                <button class="hero-but modal-but cursor" type="submit">Send</button>
             </form>
         </div>
     </div>
