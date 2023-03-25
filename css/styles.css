@@ -48,22 +48,9 @@ header {
   padding-left: 16px;
   padding-right: 16px;
 }
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .section-img-item {
   padding-top: 0px;
@@ -84,6 +71,30 @@ header {
   height: 24px;
   gap: 40px;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .contact {
+    display: flex;
+    width: 350px;
+    height: 24px;
+    gap: 40px;
+  }
+}
+
 /* index:html */
 
 .visually-hidden {
